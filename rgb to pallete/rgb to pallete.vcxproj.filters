@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\useless">
+      <UniqueIdentifier>{8c6b7558-c726-4893-be70-8c3ce965c025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data base preparation">
+      <UniqueIdentifier>{9299b50d-866c-44a1-8901-e8b17160ac59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pallete data">
+      <UniqueIdentifier>{b7ba7205-eeb7-47a7-afd8-777324450625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DCT color with distance calc.cpp">
+      <Filter>Source Files\data base preparation</Filter>
+    </ClCompile>
+    <ClCompile Include="fake main.cpp">
+      <Filter>Source Files\useless</Filter>
+    </ClCompile>
+    <ClCompile Include="src\colour table data.cpp">
+      <Filter>Source Files\data base preparation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DCT color with distance calc.h">
+      <Filter>Source Files\data base preparation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\colour table data.h">
+      <Filter>Source Files\data base preparation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DCT color index form.h">
+      <Filter>Source Files\data base preparation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DCT color table helper.h">
+      <Filter>Source Files\data base preparation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
